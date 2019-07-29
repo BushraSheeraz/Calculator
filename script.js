@@ -48,9 +48,15 @@ function clearScreen(){
     document.querySelector("#inp").value = "  ";
     document.querySelector("#inp2").value= "  ";
 }
-// function removeItem(){
-//     document.querySelector("#inp1").value -= document.querySelector("#inp1").value;
-// }
+function removeItem(){
+   let num = document.querySelector("#inp").value;
+    let x = num;
+    if(x.length > 0){
+       x = x.substring(0, x.length-1);
+       num = x;
+    }
+    document.querySelector("#inp").value = num;
+}
 function result(){
     document.querySelector("#inp2").value += " = " + eval(document.querySelector("#inp").value);
 }
