@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <center>
+            <div id="main">
+                <div id="heading">
+                    <h1>Calculator</h1>
+                </div>
+                <input type="text" id="inp" max="8">
+                <input type="text" id="inp2">
+                <div id="buttons">
+                    <div>
+                        <button onclick="showDivide()">/</button>
+                        <button onclick="showOne()">1</button>
+                        <button onclick="showTwo()">2</button>
+                        <button onclick="showThree()">3</button>
+
+                    </div>
+                    <div>
+                        <button onclick="showAdd()">+</button>
+                        <button onclick="showFour()">4</button>
+                        <button onclick="showFive()">5</button>
+                        <button onclick="showSix()">6</button>
+                    </div>
+                    <div>
+                        <button onclick="showSub()">-</button>
+                        <button onclick="showSeven()">7</button>
+                        <button onclick="showEight()">8</button>
+                        <button onclick="showNine()">9</button>
+
+                    </div>
+                    <div>
+                        <button onclick="showMultiply()">*</button>
+                        <button onclick="showZero()">0</button>
+                        <button onclick="showDecimal()">.</button>
+                        <button onclick="result()" id="result">=</button>
+                    </div>
+                    <div>
+                        <button onclick="clearScreen()">C</button>
+                        <button onclick="removeItem()">del</button>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

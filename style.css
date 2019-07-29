@@ -1,0 +1,47 @@
+#main{
+    width: 310px;
+    /* margin: 50px auto; */
+    background: linear-gradient(to top, rgb(53, 9, 70), rgb(184, 182, 182));
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px 20px; 
+}
+#heading{
+    color: rgb(93, 3, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 1px;
+}
+#inp , #inp2{
+    width: 290px;
+    height: 50px;
+    font-size: 210%;
+    text-align: right;
+    border: none;
+}
+#inp{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px 5px 0px 0px;
+}
+#inp2{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 0px 0px 5px 5px;  
+}
+button{
+    height: 50px;
+    width: 60px;
+    border-radius: 5px;
+    background: white;
+    color: rgb(112, 5, 116);
+    border: none;
+    margin: 10px 5px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(236, 235, 235);
+    box-shadow: 5px 5px 5px black;
+}
