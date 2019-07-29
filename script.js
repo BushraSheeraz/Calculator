@@ -52,5 +52,5 @@ function clearScreen(){
 //     document.querySelector("#inp1").value -= document.querySelector("#inp1").value;
 // }
 function result(){
-    document.querySelector("#inp2").value += " = " + parseInt(eval(document.querySelector("#inp").value));
+    document.querySelector("#inp2").value += " = " + eval(document.querySelector("#inp").value);
 }
