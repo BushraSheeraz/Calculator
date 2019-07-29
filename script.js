@@ -48,14 +48,21 @@ function clearScreen(){
     document.querySelector("#inp").value = "  ";
     document.querySelector("#inp2").value= "  ";
 }
-function removeItem(){
-   let num = document.querySelector("#inp").value;
+function removeItem() {
+    let num = document.querySelector("#inp").value;
+    let num2 = document.querySelector("#inp2").value;
     let x = num;
-    if(x.length > 0){
-       x = x.substring(0, x.length-1);
-       num = x;
+    let y = num2;
+    if (y.length > 0){
+        y = y.substring(0, y.length - 1);
+        num2 = y;
+    }
+    else if (x.length > 0) {
+        x = x.substring(0, x.length - 1);
+        num = x;
     }
     document.querySelector("#inp").value = num;
+    document.querySelector("#inp2").value = num2;
 }
 function result(){
     document.querySelector("#inp2").value += " = " + eval(document.querySelector("#inp").value);
